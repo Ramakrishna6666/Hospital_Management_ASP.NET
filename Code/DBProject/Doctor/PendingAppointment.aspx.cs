@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -6,6 +6,7 @@ using System.Web.UI;
 using System.Web.UI.WebControls;
 using DBProject.DAL;
 using System.Data;
+using DBProject.Helpers;
 
 
 namespace doctor
@@ -22,7 +23,7 @@ namespace doctor
         {
                 myDAL objDAL = new myDAL();
                 
-               int did = (int)Session["idoriginal"];
+               int did = SessionHelper.GetSession<int>("idoriginal");
 
                     DataTable DT = new DataTable();
 

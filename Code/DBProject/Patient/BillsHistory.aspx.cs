@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -6,6 +6,7 @@ using System.Web.UI;
 using System.Web.UI.WebControls;
 using DBProject.DAL;
 using System.Data;
+using DBProject.Helpers;
 
 
 namespace DBProject
@@ -27,7 +28,7 @@ namespace DBProject
             DataTable DT = new DataTable();
 
 
-            int id = (int)Session["idoriginal"];
+            int id = SessionHelper.GetSession<int>("idoriginal");
 
 
             int status = objmyDAl.getBillHistory(id, ref DT);

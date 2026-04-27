@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -6,6 +6,7 @@ using System.Web.UI;
 using System.Web.UI.WebControls;
 using DBProject.DAL;
 using System.Data;
+using DBProject.Helpers;
 
 
 
@@ -26,7 +27,7 @@ namespace DBProject
         {
             myDAL objmyDAl = new myDAL();
 
-            string dID1 = (string) Session["dID"];
+            string dID1 = SessionHelper.GetSession<string>("dID");
 
             int dID = Convert.ToInt32(dID1);
 
@@ -42,7 +43,7 @@ namespace DBProject
             int workE = 0;
             int age = 0;
 
-            string deptName = (string)Session["deptOriginal"];
+            string deptName = SessionHelper.GetSession<string>("deptOriginal");
 
             int status = objmyDAl.doctorInfoDisplayer(dID, ref name, ref phone, ref gender, ref charges_Per_Visit, ref ReputeIndex, ref PatientsTreated, ref qualification, ref specialization, ref workE, ref age);
 

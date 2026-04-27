@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -6,6 +6,7 @@ using System.Web.UI;
 using System.Web.UI.WebControls;
 using DBProject.DAL;
 using System.Data;
+using DBProject.Helpers;
 
 
 namespace DBProject
@@ -14,7 +15,7 @@ namespace DBProject
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            Session["deptOriginal"] = "";
+            SessionHelper.SetSession("deptOriginal", "");
             deptInfo(sender, e);
 
         }
@@ -28,7 +29,7 @@ namespace DBProject
 
                 string deptName = TDeptGrid.Rows[num].Cells[2].Text;
 
-                Session["deptOriginal"] = deptName;
+                SessionHelper.SetSession("deptOriginal", deptName);
 
                 Response.BufferOutput = true;
                 Response.Redirect("ViewDoctors.aspx");

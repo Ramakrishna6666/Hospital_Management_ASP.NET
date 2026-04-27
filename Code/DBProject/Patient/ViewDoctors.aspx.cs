@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -6,6 +6,7 @@ using System.Web.UI;
 using System.Web.UI.WebControls;
 using DBProject.DAL;
 using System.Data;
+using DBProject.Helpers;
 
 
 namespace DBProject
@@ -14,7 +15,7 @@ namespace DBProject
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            Session["dID"] = "";
+            SessionHelper.SetSession("dID", "");
             deptDoctorInfo(sender, e);
         }
 
@@ -27,7 +28,7 @@ namespace DBProject
 
                 string dID = TDoctorGrid.Rows[num].Cells[2].Text;
   
-                Session["dID"] = dID;
+                SessionHelper.SetSession("dID", dID);
 
                 Response.BufferOutput = true;
                 Response.Redirect("DoctorProfile.aspx");
@@ -46,7 +47,7 @@ namespace DBProject
 
             DataTable DT = new DataTable();
 
-            string deptName = (string) Session["deptOriginal"];
+            string deptName = SessionHelper.GetSession<string>("deptOriginal");
 
             int status = objmyDAl.getDeptDoctorInfo(deptName, ref DT);
 
@@ -58,7 +59,7 @@ namespace DBProject
 
             else
             {
-                TDoctor.Text = "Following are our Specialized Doctors of " + Session["deptOriginal"] + " Department:";
+                TDoctor.Text = "Following are our Specialized Doctors of " + SessionHelper.GetSession<string>("deptOriginal") + " Department:";
                 TDoctorGrid.DataSource = DT;
                 TDoctorGrid.DataBind();
             }
