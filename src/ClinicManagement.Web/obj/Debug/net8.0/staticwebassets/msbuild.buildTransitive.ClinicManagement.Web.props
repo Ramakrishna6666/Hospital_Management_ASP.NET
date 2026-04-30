@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="../buildMultiTargeting/ClinicManagement.Web.props" />
+</Project>

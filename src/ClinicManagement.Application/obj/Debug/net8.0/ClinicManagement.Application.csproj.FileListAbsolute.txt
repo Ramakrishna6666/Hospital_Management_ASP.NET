@@ -1,0 +1,16 @@
+/modernize-data/studio-data/TNT1001/APP215000/transformed-code/441/studio-workspace/Newrpochecktest/src/ClinicManagement.Application/bin/Debug/net8.0/ClinicManagement.Application.deps.json
+/modernize-data/studio-data/TNT1001/APP215000/transformed-code/441/studio-workspace/Newrpochecktest/src/ClinicManagement.Application/bin/Debug/net8.0/ClinicManagement.Application.dll
+/modernize-data/studio-data/TNT1001/APP215000/transformed-code/441/studio-workspace/Newrpochecktest/src/ClinicManagement.Application/bin/Debug/net8.0/ClinicManagement.Application.pdb
+/modernize-data/studio-data/TNT1001/APP215000/transformed-code/441/studio-workspace/Newrpochecktest/src/ClinicManagement.Application/bin/Debug/net8.0/ClinicManagement.Domain.dll
+/modernize-data/studio-data/TNT1001/APP215000/transformed-code/441/studio-workspace/Newrpochecktest/src/ClinicManagement.Application/bin/Debug/net8.0/ClinicManagement.Domain.pdb
+/modernize-data/studio-data/TNT1001/APP215000/transformed-code/441/studio-workspace/Newrpochecktest/src/ClinicManagement.Application/obj/Debug/net8.0/ClinicManagement.Application.csproj.AssemblyReference.cache
+/modernize-data/studio-data/TNT1001/APP215000/transformed-code/441/studio-workspace/Newrpochecktest/src/ClinicManagement.Application/obj/Debug/net8.0/ClinicManagement.Application.GeneratedMSBuildEditorConfig.editorconfig
+/modernize-data/studio-data/TNT1001/APP215000/transformed-code/441/studio-workspace/Newrpochecktest/src/ClinicManagement.Application/obj/Debug/net8.0/ClinicManagement.Application.AssemblyInfoInputs.cache
+/modernize-data/studio-data/TNT1001/APP215000/transformed-code/441/studio-workspace/Newrpochecktest/src/ClinicManagement.Application/obj/Debug/net8.0/ClinicManagement.Application.AssemblyInfo.cs
+/modernize-data/studio-data/TNT1001/APP215000/transformed-code/441/studio-workspace/Newrpochecktest/src/ClinicManagement.Application/obj/Debug/net8.0/ClinicManagement.Application.csproj.CoreCompileInputs.cache
+/modernize-data/studio-data/TNT1001/APP215000/transformed-code/441/studio-workspace/Newrpochecktest/src/ClinicManagement.Application/obj/Debug/net8.0/ClinicManagement.Application.sourcelink.json
+/modernize-data/studio-data/TNT1001/APP215000/transformed-code/441/studio-workspace/Newrpochecktest/src/ClinicManagement.Application/obj/Debug/net8.0/ClinicMa.5CCDC83B.Up2Date
+/modernize-data/studio-data/TNT1001/APP215000/transformed-code/441/studio-workspace/Newrpochecktest/src/ClinicManagement.Application/obj/Debug/net8.0/ClinicManagement.Application.dll
+/modernize-data/studio-data/TNT1001/APP215000/transformed-code/441/studio-workspace/Newrpochecktest/src/ClinicManagement.Application/obj/Debug/net8.0/refint/ClinicManagement.Application.dll
+/modernize-data/studio-data/TNT1001/APP215000/transformed-code/441/studio-workspace/Newrpochecktest/src/ClinicManagement.Application/obj/Debug/net8.0/ClinicManagement.Application.pdb
+/modernize-data/studio-data/TNT1001/APP215000/transformed-code/441/studio-workspace/Newrpochecktest/src/ClinicManagement.Application/obj/Debug/net8.0/ref/ClinicManagement.Application.dll

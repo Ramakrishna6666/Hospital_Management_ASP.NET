@@ -1,0 +1,12 @@
+/modernize-data/studio-data/TNT1001/APP215000/transformed-code/441/studio-workspace/Newrpochecktest/src/ClinicManagement.Domain/bin/Debug/net8.0/ClinicManagement.Domain.deps.json
+/modernize-data/studio-data/TNT1001/APP215000/transformed-code/441/studio-workspace/Newrpochecktest/src/ClinicManagement.Domain/bin/Debug/net8.0/ClinicManagement.Domain.dll
+/modernize-data/studio-data/TNT1001/APP215000/transformed-code/441/studio-workspace/Newrpochecktest/src/ClinicManagement.Domain/bin/Debug/net8.0/ClinicManagement.Domain.pdb
+/modernize-data/studio-data/TNT1001/APP215000/transformed-code/441/studio-workspace/Newrpochecktest/src/ClinicManagement.Domain/obj/Debug/net8.0/ClinicManagement.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/modernize-data/studio-data/TNT1001/APP215000/transformed-code/441/studio-workspace/Newrpochecktest/src/ClinicManagement.Domain/obj/Debug/net8.0/ClinicManagement.Domain.AssemblyInfoInputs.cache
+/modernize-data/studio-data/TNT1001/APP215000/transformed-code/441/studio-workspace/Newrpochecktest/src/ClinicManagement.Domain/obj/Debug/net8.0/ClinicManagement.Domain.AssemblyInfo.cs
+/modernize-data/studio-data/TNT1001/APP215000/transformed-code/441/studio-workspace/Newrpochecktest/src/ClinicManagement.Domain/obj/Debug/net8.0/ClinicManagement.Domain.csproj.CoreCompileInputs.cache
+/modernize-data/studio-data/TNT1001/APP215000/transformed-code/441/studio-workspace/Newrpochecktest/src/ClinicManagement.Domain/obj/Debug/net8.0/ClinicManagement.Domain.sourcelink.json
+/modernize-data/studio-data/TNT1001/APP215000/transformed-code/441/studio-workspace/Newrpochecktest/src/ClinicManagement.Domain/obj/Debug/net8.0/ClinicManagement.Domain.dll
+/modernize-data/studio-data/TNT1001/APP215000/transformed-code/441/studio-workspace/Newrpochecktest/src/ClinicManagement.Domain/obj/Debug/net8.0/refint/ClinicManagement.Domain.dll
+/modernize-data/studio-data/TNT1001/APP215000/transformed-code/441/studio-workspace/Newrpochecktest/src/ClinicManagement.Domain/obj/Debug/net8.0/ClinicManagement.Domain.pdb
+/modernize-data/studio-data/TNT1001/APP215000/transformed-code/441/studio-workspace/Newrpochecktest/src/ClinicManagement.Domain/obj/Debug/net8.0/ref/ClinicManagement.Domain.dll
