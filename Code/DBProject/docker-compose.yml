@@ -1,0 +1,33 @@
+version: '3.8'
+
+services:
+  dbproject-app:
+    image: dbproject:latest
+    container_name: dbproject-container
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "8080:80"
+    environment:
+      # ASP.NET Framework environment variables
+      - ASPNET_ENVIRONMENT=Production
+      # Database connection string (override with your actual database)
+      - ConnectionStrings__sqlCon1=Data Source={{DB_HOST}};Initial Catalog=DBProject;User ID={{DB_USER}};Password={{DB_PASSWORD}}
+    networks:
+      - dbproject-network
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "powershell", "-command", "try { $$response = Invoke-WebRequest -Uri http://localhost:80 -UseBasicParsing -TimeoutSec 5; if ($$response.StatusCode -eq 200) { exit 0 } else { exit 1 } } catch { exit 1 }"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 60s
+
+networks:
+  dbproject-network:
+    driver: bridge
+
+# Note: This docker-compose.yml is for the application only.
+# External services (SQL Server database) should be configured separately.
+# Update the ConnectionStrings__sqlCon1 environment variable with your actual database connection details.
